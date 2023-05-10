@@ -1,0 +1,17 @@
+.active {
+  color: #5fb4a2;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.footer-hover:hover .contact-link {
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+.footer-hover:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}

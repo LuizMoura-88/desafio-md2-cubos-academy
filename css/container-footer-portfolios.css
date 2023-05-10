@@ -1,0 +1,274 @@
+.container-footer-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 64px;
+  width: 1440px;
+  height: 561px;
+
+  background-color: #fafafa;
+  /* border: 3px solid greenyellow; */
+}
+
+/*para trabalhar abaixo portfolio manage------------------------------------------------------------------ */
+
+.nav-portfolio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1110px;
+  height: 132px;
+
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+
+  /* border: 2px solid red; */
+}
+
+.portfolio-link_before {
+  width: 162px;
+  height: 66px;
+  /* border: 2px solid rgb(6, 203, 242); */
+}
+
+.portfolio-link_after {
+  width: 178px;
+  height: 66px;
+  /* border: 2px solid rgb(6, 203, 242); */
+}
+
+.link-project {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+
+  width: 161px;
+  height: 66px;
+}
+
+.link-project-insure {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+
+  width: 178px;
+  height: 66px;
+}
+
+.horizon-arrow-left {
+  width: 8px;
+  height: 16px;
+  /* border: 2px solid rgb(242, 152, 6); */
+}
+
+.horizon-arrow-right {
+  margin-left: 24px;
+  width: 8px;
+  height: 16px;
+  /* border: 2px solid rgb(242, 152, 6); */
+}
+
+.portfolio-title {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.285714px;
+
+  color: #33323d;
+
+  /* width: 170px; */
+  height: 66px;
+}
+
+.portfolio-title-bookmark {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.285714px;
+
+  color: #33323d;
+
+  width: 170px;
+  height: 66px;
+}
+
+.portfolio-title_before {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.portfolio-title_after {
+  margin-left: 30px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.portfolio-title_after-insure {
+  /* margin-left: 30px; */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.portfolio-title_after-bookmark {
+  /* margin-left: 30px; */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/*para trabalhar acima  referencia portfolio manage ------------------------------------------------------------------ */
+
+.contato-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1110px;
+  height: 84px;
+  /* border: 3px solid rgb(4, 11, 134); */
+}
+.contato-section_interested {
+  width: 367px;
+  height: 100%;
+
+  /* border: 3px solid rgb(247, 191, 37); */
+
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+}
+
+.contato-section_button {
+  width: 168px;
+  height: 48px;
+  background-color: #fafafa;
+  border: 1px solid #33323d;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid #d80d84; */
+
+  background-color: #33323d;
+}
+
+.footer-secundary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+  width: 1110px;
+  /* border: 1px solid #f4fa41; */
+}
+
+.footer-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 388px;
+  height: 32px;
+  /* border: 1px solid #e3e3e8; */
+}
+
+.footer-img-logo {
+  height: 32px;
+  width: 60px;
+  margin-right: 48px;
+}
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 14px;
+  width: 309px;
+  /* border: 1px solid #e0e3d1; */
+}
+.footer-navigation-items {
+  font-family: "Public Sans";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 104px;
+  height: 24px;
+  /* border: 1px solid #e3e3e8; */
+}
+
+.social-media-items {
+  width: 24px;
+  height: 24px;
+}

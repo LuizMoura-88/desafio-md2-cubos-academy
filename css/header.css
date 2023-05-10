@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1111px;
+  height: 32px;
+  margin-bottom: 68px;
+}
+
+.header-img-logo {
+  height: 32px;
+  width: 60px;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 41px;
+
+  width: 279px;
+  height: 14px;
+}
+
+.header-navigation-items {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #33323d;
+}
+
+.header-navigation-items:hover {
+  color: #5fb4a2;
+}

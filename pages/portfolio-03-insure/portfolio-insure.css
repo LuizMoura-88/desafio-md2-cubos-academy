@@ -1,0 +1,140 @@
+@import url(../../css/global.css);
+@import url(../../css/header.css);
+@import url(../../css/main.css);
+@import url(../../css/container-footer-portfolios.css);
+
+.product-image {
+  margin-top: 26px;
+  width: 1110px;
+  height: 500px;
+}
+
+.resume-projects {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 115px;
+  width: 1110px;
+  height: 1192px;
+}
+
+.project-report {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 350px;
+  height: 498px;
+
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.project-title {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+}
+
+.project-description {
+  width: 350px;
+  height: 120px;
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.tecnology {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 76px;
+}
+.tecnology-tools {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #5fb4a2;
+}
+
+.tecnology-button-link {
+  margin-bottom: 103;
+  width: 178px;
+  height: 48px;
+  background-color: #fafafa;
+  border: 1px solid #33323d;
+}
+
+.project-challenge-reports {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 635px;
+  height: 1192px;
+}
+
+.project-challenge-reports_title,
+.previews-title {
+  all: unset;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+
+  letter-spacing: -0.285714px;
+
+  color: #33323d;
+}
+
+.project-challenge-reports_description {
+  width: 635px;
+  height: 180px;
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #33323d;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.previews-estaticos-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 635px;
+  height: 902px;
+}
+
+.previews-image {
+  width: 635px;
+  height: 400px;
+}

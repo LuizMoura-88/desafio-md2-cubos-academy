@@ -1,0 +1,143 @@
+@import url(../../css/global.css);
+@import url(../../css/header.css);
+@import url(../../css/main.css);
+@import url(../../css/container-footer.css);
+
+.hero-section {
+  width: 1110px;
+  height: 600px;
+  margin-bottom: 150px;
+
+  position: relative;
+}
+
+.hero-section_database {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section_aboutme {
+  position: absolute;
+  width: 445px;
+  height: 357px;
+  left: 0px;
+  top: 243px;
+  background: #fafafa;
+}
+.hero-section-aboutme_title {
+  margin: 56px 28px 101px 27px;
+
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+
+  color: #33323d;
+}
+
+.link-button {
+  width: 200px;
+  height: 48px;
+}
+
+.button-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 200px;
+  height: 48px;
+  border: none;
+  position: relative;
+  background-color: #203a4c;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 48px;
+  height: 100%;
+
+  background-color: #192b37;
+}
+
+.img-arrow {
+  filter: brightness(2);
+}
+
+.right {
+  margin-left: 40px;
+  font-family: "Public Sans";
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button-home:hover .left {
+  background-color: #458375;
+}
+
+.button-home:hover {
+  background-color: #5fb4a2;
+  color: white;
+}
+
+.sobre-section {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1110px;
+  height: 600px;
+}
+
+.sobre-section_profile {
+  width: 540px;
+  height: 600px;
+}
+
+.sobre-section_resume {
+  width: 430px;
+  height: 600px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.sobre-section-resume_title {
+  margin: 51px 0 28px 0;
+
+  font-family: "Ibarra Real Nova";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+}
+
+.sobre-section-resume_description {
+  width: 430px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  line-height: 30px;
+
+  color: #33323d;
+
+  opacity: 0.8;
+}
+
+.sobre-section-resume_contact {
+  margin: 24px 113px 46px 113px;
+  width: 204px;
+  height: 48px;
+  background-color: #fafafa;
+  border: 1px solid #33323d;
+}
